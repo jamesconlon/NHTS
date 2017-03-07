@@ -76,6 +76,19 @@ class NHTSdata:
         
         #return(n)
         
+      
+        
+        
+        
+    def plotHistNew(self,log = False,start =0,stop = -1,offset = 0.0,title='default',size_x = 12,size_y = 12, x_log = False):  
+        
+        import matplotlib.pyplot as plt         
+        import numpy as np        
+        
+        
+        
+        
+        
         
       
 '''

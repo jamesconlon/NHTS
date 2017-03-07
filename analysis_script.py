@@ -199,7 +199,7 @@ vehicle_type.plotHist(start=1, stop = 10,offset = .5,size_x = 15, size_y = 10)
 '''
 vehicle_fuel_type = nhts.NHTSdata('VEH','FUELTYPE',data_dictionary = data_dictionary,codes=fuel_types)
 vft = vehicle_fuel_type.data
-vehicle_fuel_type.plotHist(start = 1,stop =5,offset = -.5,size_x = 15, size_y = 10)
+vehicle_fuel_type.plotHist(start = 1,stop =5,offset = -.5,size_x = 15, size_y = 10, log = True)
 
 '''
 '''
